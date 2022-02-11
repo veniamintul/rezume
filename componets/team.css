@@ -1,0 +1,109 @@
+.team {
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*height: rem(720px);*/
+  height: 100vh; }
+
+.team__headline {
+  display: block;
+  margin-top: rem(45px);
+  margin-left: rem(400px); }
+
+.team__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(48px);
+  line-height: rem(52px);
+  text-transform: uppercase;
+  color: #292929; }
+
+.team__box {
+  display: flex;
+  justify-content: space-between;
+  max-width: rem(940px);
+  height: 34rem; }
+
+.team--version--desktop {
+  display: flex; }
+
+.team--version--phone {
+  display: flex;
+  flex-direction: column;
+  opacity: 0; }
+
+.team__item {
+  display: block;
+  max-width: rem(220px);
+  height: 35rem;
+  margin-right: rem(20px); }
+
+.team__item:last-child {
+  margin-right: 0; }
+
+.team__vipad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000; }
+
+.team__box__one {
+  overflow: hidden;
+  margin-top: rem(5px);
+  width: rem(220px);
+  background: #fff;
+  height: 0; }
+
+.team__box__one--activ {
+  height: auto; }
+
+.team__box__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: rem(105px); }
+
+.team__copy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: rem(16px);
+  line-height: rem(19px);
+  color: #000000; }
+
+.team__title__one {
+  font-style: normal;
+  font-weight: normal;
+  font-size: rem(16px);
+  line-height: rem(19px);
+  text-align: center;
+  color: #666666; }
+
+.team__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: rem(18px);
+  line-height: rem(21px);
+  color: #292929; }
+
+.team__triangle {
+  border: rem(10px) solid transparent;
+  border-top: rem(10px) solid crimson;
+  border-bottom-width: 0;
+  height: rem(0px);
+  width: rem(0px);
+  content: "";
+  margin-left: rem(10px); }
+
+.team__triangle--activ {
+  border: rem(10px) solid transparent;
+  border-bottom: rem(10px) solid crimson;
+  border-top-width: 0;
+  height: rem(0px);
+  width: rem(0px);
+  content: "";
+  margin-left: rem(10px); }
+
+/*# sourceMappingURL=team.css.map */
